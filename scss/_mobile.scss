@@ -68,6 +68,20 @@
     }
   }
 
+  .profile-github {
+    .repo {
+      flex-direction: column;
+
+      & > div:first-child {
+        flex: 1;
+        margin-bottom: 0.5rem;
+      }
+      & > div:last-child {
+        flex: 1;
+      }
+    }
+  }
+
   //Posts
   .post {
     grid-template-columns: 1fr;
