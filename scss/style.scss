@@ -94,6 +94,14 @@ button {
   padding: 1rem;
   line-height: 1.8;
   margin-bottom: 1rem;
+
+  i {
+    margin-right: 0.5rem;
+  }
+
+  li {
+    font-weight: 900;
+  }
 }
 
 // Profile Page
@@ -136,6 +144,10 @@ button {
       justify-content: center;
       align-items: center;
       text-align: center;
+
+      i {
+        margin-right: 0.3rem;
+      }
     }
   }
   .profile-exp {
